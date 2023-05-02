@@ -1,0 +1,448 @@
+
+/*styling the body*/
+
+body {
+     background-color:#ffffe0;
+     margin: 0%;
+ 
+
+}
+/*styling the header*/
+header{
+    background-color:#339966;
+    width: 100%;
+    text-align: justify;
+    overflow: hidden;
+    max-width: 100%;
+  
+
+    
+}
+/*stying the logo*/
+footer{
+  background-color: #339966;
+  font-family: Neucha;
+  font-size:20px;
+  text-align:center;
+  padding:10px;
+  
+
+}
+
+/*styling the logo*/
+#logo{
+    width: 200px;
+    height: 90px;
+    padding: 5px;
+    float: left;
+    
+
+}
+/*styling the para*/
+p{
+    font-family:Neucha;
+    font-size: 20px;
+    text-align: center;
+    
+   
+}
+/* styling the para */
+p.solid{
+    border-style: solid;
+    border-width: 5px;
+
+}  
+
+
+
+/*images*/
+img {
+    width: 250px;
+    height: 300px;
+    float:center;
+    padding:10px;
+    border: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+
+  
+  /* nav bar links*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #339966;
+    font-family:Neucha;
+}
+
+li{
+    float:left;
+
+}
+
+li a:link{
+    display: block;
+    background-color: #68766E;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+li a:visited{
+    display: block;
+    background-color: #68766E;
+    padding: 10px;
+    color:black;
+    text-decoration: none;
+    
+
+}
+
+li a:hover{
+    display: block;
+    background-color: #68766E;
+    padding: 10px;
+    color: darkslategray;
+    text-decoration: none;
+    
+}
+
+li a:active{
+    display: block;
+    background-color: #68766E;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    
+
+}
+/* headings*/
+h1{
+    font-family:Neucha;
+    font-size: 50px;
+    color:black;
+    text-align: center;
+
+}
+
+h2{
+    font-family:Rock Salt;
+    font-size:20px;
+    color:black;
+    text-align:center;
+
+}
+
+h3{
+    font-family:Neucha;
+    font-size:35px;
+    color:black;
+    text-align: center;
+}
+
+h4{
+    font-family:Rock Salt;
+    font-size:15px;
+    color: black;
+    text-align: center;
+}
+
+h5{
+  font-family: Neucha;
+  font-size:40px;
+  color:black;
+  text-align:center;
+
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+    position: relative;
+    width: 50%;
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+  }
+  
+  /* Make the image responsive */
+  .container img {
+    width: 100%;
+    height: auto; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: darkgreen;
+    color: rgb(255, 255, 255);
+    font-family: Neucha;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+  }
+  /*container for button*/
+  .container .btn:hover {
+    background-color: black;
+  }
+
+  /* styling for div container */
+  div {
+    display: contents;
+  
+    
+  }
+    
+  /* styling for swiper demo for index, about us and desserts */
+ .swiper-container{
+    height: 200px;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100vh;
+    min-height: 0%;
+    min-width: 0%;
+
+ }
+  
+ .swiper-slide{
+    background-color: #68766E;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: medium;
+    
+ }
+
+ .swiper {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+
+  .menu {
+    min-width: 100px;
+    width: 70%;
+    max-width: 320px;
+    background-color: #2c8dfb;
+    color: #fff;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+
+/* swiper gallery loop for aboutus and index */
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+.swiper {
+  width: 90%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.mySwiper2 {
+  height: 80%;
+  width: 100%;
+  
+}
+
+.mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  
+}
+
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+  
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+  
+}
+/* swiper gallery loop for aboutus and index */
+
+.swiper-slide img {
+  display: block;
+  width: 50%;
+  height: 90%;
+  object-fit: cover;
+}
+
+/*table for contact us */
+table {
+  font-family: Neucha;
+  border-collapse: collapse;
+  width: 100%;
+}
+/*table*/
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  
+}
+/*table*/
+tr:nth-child(even) {
+  background-color: #d3d5d3;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/*styling the social media buttons*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+/* styling the google maps */
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+  text-align: center;
+  float: right;
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  text-align: center;
+  float: right;
+  
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
